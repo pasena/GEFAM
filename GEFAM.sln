@@ -1,7 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEFAM.WebUI", "GEFAM.WebUI\GEFAM.WebUI.csproj", "{96A9B67B-3FF8-40F1-B8E3-F2F0F3AE7740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEFAM.Services", "GEFAM.Services\GEFAM.Services.csproj", "{2C8B5850-1EC4-4688-9915-116AF846C329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEFAM.Repository", "GEFAM.Repository\GEFAM.Repository.csproj", "{65E1711F-AA5E-40DE-98D3-1AC11523FE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEFAM.Domain", "GEFAM.Domain\GEFAM.Domain.csproj", "{308AAA14-AD05-451D-A2B9-07A25DBFA31B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A9B67B-3FF8-40F1-B8E3-F2F0F3AE7740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A9B67B-3FF8-40F1-B8E3-F2F0F3AE7740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A9B67B-3FF8-40F1-B8E3-F2F0F3AE7740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A9B67B-3FF8-40F1-B8E3-F2F0F3AE7740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8B5850-1EC4-4688-9915-116AF846C329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8B5850-1EC4-4688-9915-116AF846C329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8B5850-1EC4-4688-9915-116AF846C329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8B5850-1EC4-4688-9915-116AF846C329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E1711F-AA5E-40DE-98D3-1AC11523FE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E1711F-AA5E-40DE-98D3-1AC11523FE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E1711F-AA5E-40DE-98D3-1AC11523FE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E1711F-AA5E-40DE-98D3-1AC11523FE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308AAA14-AD05-451D-A2B9-07A25DBFA31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308AAA14-AD05-451D-A2B9-07A25DBFA31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308AAA14-AD05-451D-A2B9-07A25DBFA31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308AAA14-AD05-451D-A2B9-07A25DBFA31B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
