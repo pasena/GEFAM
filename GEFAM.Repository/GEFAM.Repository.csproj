@@ -45,11 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\GEFAMContext.cs" />
+    <Compile Include="Migrations\201207170125519_Zero.cs" />
+    <Compile Include="Migrations\201207170125519_Zero.Designer.cs">
+      <DependentUpon>201207170125519_Zero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GEFAM.Domain\GEFAM.Domain.csproj">
+      <Project>{308AAA14-AD05-451D-A2B9-07A25DBFA31B}</Project>
+      <Name>GEFAM.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

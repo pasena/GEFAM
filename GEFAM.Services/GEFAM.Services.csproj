@@ -42,6 +42,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GEFAM.Domain\GEFAM.Domain.csproj">
+      <Project>{308AAA14-AD05-451D-A2B9-07A25DBFA31B}</Project>
+      <Name>GEFAM.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GEFAM.Repository\GEFAM.Repository.csproj">
+      <Project>{65E1711F-AA5E-40DE-98D3-1AC11523FE19}</Project>
+      <Name>GEFAM.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
