@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace GEFAM.WebUI
+namespace GEFAM.WebUI.View
 {
-    public partial class SiteMaster : System.Web.UI.MasterPage
+    public partial class CadastrarPaciente : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Page.Header.DataBind();
+
         }
     }
 }

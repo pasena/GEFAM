@@ -115,12 +115,21 @@
     <Content Include="Scripts\jquery-1.7.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
+    <Content Include="Styles\imagens\plus.png" />
+    <Content Include="Styles\imagens\plus24.png" />
+    <Content Include="Styles\imagens\Plus34.png" />
+    <Content Include="Styles\imagens\plus4.gif" />
+    <Content Include="Styles\imagens\search.png" />
+    <Content Include="Styles\imagens\search2.gif" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="View\CadastrarPaciente.aspx" />
+    <Content Include="View\CadastrarSolicitacao.aspx" />
+    <Content Include="View\ConsultarPaciente.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -183,6 +192,27 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="View\CadastrarPaciente.aspx.cs">
+      <DependentUpon>CadastrarPaciente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\CadastrarPaciente.aspx.designer.cs">
+      <DependentUpon>CadastrarPaciente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\CadastrarSolicitacao.aspx.cs">
+      <DependentUpon>CadastrarSolicitacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\CadastrarSolicitacao.aspx.designer.cs">
+      <DependentUpon>CadastrarSolicitacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\ConsultarPaciente.aspx.cs">
+      <DependentUpon>ConsultarPaciente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\ConsultarPaciente.aspx.designer.cs">
+      <DependentUpon>ConsultarPaciente.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -193,6 +223,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GEFAM.Domain\GEFAM.Domain.csproj">
+      <Project>{308AAA14-AD05-451D-A2B9-07A25DBFA31B}</Project>
+      <Name>GEFAM.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GEFAM.Services\GEFAM.Services.csproj">
+      <Project>{2C8B5850-1EC4-4688-9915-116AF846C329}</Project>
+      <Name>GEFAM.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\GEFAN.skin" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
