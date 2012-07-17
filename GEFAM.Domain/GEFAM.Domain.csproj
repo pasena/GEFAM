@@ -40,6 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\DadosComplementares.cs" />
+    <Compile Include="Entities\Dispensacao.cs" />
+    <Compile Include="Entities\Endereco.cs" />
+    <Compile Include="Entities\Estabelecimento.cs" />
+    <Compile Include="Entities\HemofiliaEnum.cs" />
+    <Compile Include="Entities\InibidorEnum.cs" />
+    <Compile Include="Entities\Medicamento.cs" />
+    <Compile Include="Entities\MedicamentoSolicitado.cs" />
+    <Compile Include="Entities\Paciente.cs" />
+    <Compile Include="Entities\RacaCorEnum.cs" />
+    <Compile Include="Entities\SexoEnum.cs" />
+    <Compile Include="Entities\Solicitacao.cs" />
+    <Compile Include="Entities\Transplantado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
